@@ -1,0 +1,43 @@
+* {
+    font-family: Lucida Console;
+    background-color: navajowhite;
+  }
+  
+  .title, h3 {
+    text-align: center;
+    color: darkolivegreen;
+  }
+  
+  a {
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+    color: darkolivegreen;
+  }
+  
+  table {
+    border: 4px solid slateblue;
+    width: 800px;
+    margin: 0 auto;
+    background-color: steelblue;
+  }
+  
+  td  {
+    border-top: 2px solid;
+    border: 2px solid slateblue;
+    color: darkblue;
+  }
+  
+  thead {
+    font-weight: bold;
+  }
+  
+  hr {
+    color: darkolivegreen;
+  }
+  
+  #foot {
+    color: darkolivegreen;
+    font-style: italic;
+    font-weight: bold;
+  }

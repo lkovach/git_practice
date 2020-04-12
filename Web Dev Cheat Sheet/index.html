@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link href="./styles.css" type="text/css" rel="stylesheet">
+    <title>Web Dev Cheat Sheet</title>
+  </head>
+  <body>
+    <header>
+      <nav><a href="#vae">Video/Audio/Embed</a>&nbsp<spacer> | </spacer><a href="#video">Video Attributes</a><spacer> | </spacer><a href="#audio">Audio Attributes</a><spacer> | </spacer><a href="#hfn">Header/Footer/Nav</a>
+      </nav>
+    </header>
+      <hr>
+      <h1 class="title">Web Dev Cheat Sheet</h1>
+      <hr>
+      <br>
+      <h3>Video/Audio/Embed Tags</h3>
+      <table id="vae">
+        <thead>
+          <tr>
+            <td>Tag</td>
+            <td>Description</td>
+            <td>Example</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>&lt;video&gt;</td>
+            <td>Adds video to a web page. Video is not a self-closing element.</td>
+            <td>&lt;video src="video.mp4"&gt;&lt;/video&gt;</td>
+          </tr>
+          <tr>
+            <td>&lt;audio&gt;</td>
+            <td>Adds audio to a webpage.  Like video, this is not a self-closing element</td>
+            <td>&lt;audio src="some audio.mp4"&gt;&lt;/audio&gt;</td>
+          </tr>
+          <tr>
+            <td>&lt;embed&gt;</td>
+            <td>Can be used for any media type and is self-closing</td>
+            <td>&lt;embed src="somemedia.xxx"&gt;</td>
+          </tr>
+        </tbody>
+    </table>
+    <br>
+    <br>
+    <h3>Video Attributes</h3>
+    <table id="video">
+      <thead>
+        <tr>
+          <td>Attribute</td>
+          <td>Description</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>src</td>
+          <td>Identifies the source of the video. If the source is unavailable, an error message should be displayed to the user.</td>
+        </tr>
+        <tr>
+          <td>controls</td>
+          <td>Shows the standard video controls: play/pause, fullscreen, and audio controls</td>
+        </tr>
+        <tr>
+          <td>autoplay</td>
+          <td>Starts the video automatically when the page is loaded</td>
+        </tr>
+        <tr>
+          <td>loop</td>
+          <td>Plays the video continuously</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <br>
+    <h3>Audio Attributes</h3>
+    <table id="audio">
+      <thead>
+        <tr>
+          <td>Attribute</td>
+          <td>Description</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>src</td>
+          <td>Identifies the source of the audio. If the audio is not available, an error message should be displayed to the user.</td>
+        </tr>
+        <tr>
+          <td>controls</td>
+          <td>Provides play/pause and volume controls</td>
+        </tr>
+        <tr>
+          <td>autoplay</td>
+          <td>Starts the audio automatically when the page loads</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <br>
+    <h3>Header, Footer, and Nav</h3>
+    <table id="hfn">
+      <thead>
+        <tr>
+          <td>Tag</td>
+          <td>Description</td>
+          <td>Example</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>&lt;header&gt;</td>
+          <td>A container usually for either navigation links or introductory content containing h1 to h6 headings.</td>
+          <td>&lt;header&gt;...&lt;/header&gt;</td>
+        </tr>
+        <tr>
+          <td>&lt;footer&gt;</td>
+          <td>Contains information such as: contact info, copyright info, Terms of Use, Site Map, Reference to top of page links</td>
+          <td>&lt;footer&gt;&lt;p&gt;...&lt;/p&gt;&lt;/footer&gt;</td>
+        </tr>
+        <tr>
+          <td>&lt;nav&gt;</td>
+          <td>Used to define a block of navigation links such as menus and tables of contents</td>
+          <td>&lt;nav&gt;*bunch of links here*&lt;/nav&gt;</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+  <br>
+  <hr>
+  <footer id="foot">
+    <h5>Created by: Louis K</h5>
+  </footer>
+</html>
